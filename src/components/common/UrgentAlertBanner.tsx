@@ -17,7 +17,7 @@ export const UrgentAlertBanner: React.FC<UrgentAlertBannerProps> = ({ onDonateCl
             </span>
             <div className="flex items-center gap-2 text-xs sm:text-sm font-medium tracking-wide">
               <span className="bg-amber-500/20 text-amber-300 border border-amber-400/30 px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider">
-                Urgent Appeal
+                Appeal for Support
               </span>
               <span>
                 For VAAFD projects to continue educating & sheltering war-displaced children, we urgently need your support.
