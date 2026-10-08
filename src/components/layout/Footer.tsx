@@ -206,7 +206,19 @@ export const Footer: React.FC<FooterProps> = ({
           <p>
             © {new Date().getFullYear()} Vision Awake Africa For Development (VAAFD). All rights reserved.
           </p>
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center flex-wrap justify-center gap-3 sm:gap-6">
+            <span>
+              Built by{' '}
+              <a
+                href="https://cyber-hybrid.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-slate-300 hover:text-emerald-400 transition-colors"
+              >
+                Cyber Hybrid
+              </a>
+            </span>
+            <span className="hidden sm:inline">•</span>
             <span>Carolyn A. Miller School (CAMES)</span>
             <span className="hidden sm:inline">•</span>
             <span>Non-Profit Community Haven</span>
